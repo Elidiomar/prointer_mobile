@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">PROINTER</string>
+    <string name="navigation_drawer_open">Abra a gaveta de navegação</string>
+    <string name="navigation_drawer_close">Fechar gaveta de navegação</string>
+    <string name="nav_header_title">TADS PROINTER</string>
+    <string name="nav_header_subtitle">5º Semestre - 2018-01</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Sobre nós</string>
+
+    <!-- TODO: Messages-->
+    <string name="install_word">Você deve instalar um editor de arquivos Word</string>
+    <string name="message_open_file">Abrir documento</string>
+
+    <string name="info">Para trabalhar em equipe deve ser feito o compartilhamento pelo Google Drive.</string>
+
+    <string name="about">Caso queira efetuar um teste envie um e-mail para elidiomar.rodrigues@gmail.com solicitado o arquivo compartilhado.</string>
+
+    <string name="download_progress">Processando</string>
+
+    <string name="content_updated">Arquivo sincronizado com sucesso.</string>
+    <string name="content_update_failed">Ocorreu um erro ao sincronizar o conteúdo.</string>
+    <string name="card_view_download">BAIXAR</string>
+    <string name="card_view_edit">EDITAR</string>
+    <string name="card_view_save">SALVAR</string>
+    <string name="card_view_history">HISTORICO</string>
+    <string name="select_file">Selecione um arquivo</string>
+    <string name="read_failed">Não é possível ler o conteúdo.</string>
+    <string name="file_not_selected">Arquivo não selecionado.</string>
+    <string name="select_folder">Selecione uma pasta.</string>
+    <string name="title_activity_login">ENTRAR</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Nome</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_login_in">ACESSAR SISTEMA</string>
+    <string name="action_sign_in">NOVO REGISTRO</string>
+    <string name="action_sign_in_short">REGISTRAR</string>
+    <string name="action_sign_create_in">CRIAR CONTA</string>
+    <string name="error_invalid_email">Este endereço de email é inválido</string>
+    <string name="error_invalid_password">Esta senha é muito curta</string>
+    <string name="error_incorrect_password">Esta senha está incorreta</string>
+    <string name="error_field_required">Este campo é obrigatório</string>
+    <string name="permission_rationale">"Permissões de contatos são necessárias para uso do sistema."
+    </string>
+    <string name="title_activity_professor">ProfessorActivity</string>
+    <string name="title_activity_aluno">AlunoActivity</string>
+
+</resources>

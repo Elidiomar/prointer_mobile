@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pitagoras.prointer.mobile.view.AlunoActivity"
+    tools:showIn="@layout/activity_aluno">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/txt_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="ALUNO"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/meta_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/txt_title_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aluno 01"
+                    android:textAlignment="center"
+                    android:textColor="@color/ColorHint"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="2dp"/>
+
+                <TextView
+                    android:id="@+id/txt_size_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="aluno1@test.com.br"
+                    android:textAlignment="center"
+                    android:textColor="@color/ColorHint"
+                    android:layout_below="@+id/txt_title_des"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="2dp"/>
+
+                <TextView
+                    android:id="@+id/txt_date_create_des"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="21/05/2018 20:35"
+                    android:textAlignment="center"
+                    android:textColor="@color/ColorHint"
+                    android:layout_below="@+id/txt_size_des"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="2dp"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_marginTop="50dp"
+                android:id="@+id/btn_grupo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GRUPO"/>
+
+            <Button
+                android:id="@+id/btn_tarefa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAREFA"/>
+
+
+            <Button
+                android:id="@+id/btn_professor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PROFESSOR"/>
+
+            <Button
+                android:id="@+id/btn_alunos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALUNOS"/>
+
+            <Button
+                android:id="@+id/btn_menssagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ENVIAR MENSAGEM"/>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>
